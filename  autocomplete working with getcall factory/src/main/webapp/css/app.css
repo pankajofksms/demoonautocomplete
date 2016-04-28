@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+ h2,div{
+font-family: 'Open Sans', sans-serif;
+margin: 0px;
+padding: 0px;
+}
+
+h2{
+	color:firebrick;
+	text-align:center;
+	margin-top: 29px;
+}
+
+dh-autocomplete input{
+	    margin-left: 577px;
+	    border-color: firebrick;
+}
+
+
+dh-autocomplete .divlist{
+	    margin-left: 577px;
+}

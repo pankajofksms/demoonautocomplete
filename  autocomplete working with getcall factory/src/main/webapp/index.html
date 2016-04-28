@@ -1,0 +1,19 @@
+<html ng-app="myapp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script src="http://code.angularjs.org/1.2.9/angular.min.js" type="text/javascript"></script>
+<link href="css/app.css" type="text/css" rel="stylesheet" />
+<link href="css/autocomplete.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/autocomplete.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+<title>Autocomplete App</title>
+</head>
+<body>
+	<div ng-controller="myController">
+		<h2>Autocomplete using AngularJS</h2>
+		<dh-autocomplete items="items" limit=10 holder="Type your city name" display="name"
+			model="name" on-select="onItemSelected()" />
+	</div>
+</body>
+</html>
